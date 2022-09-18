@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * mul- Multiply numbers
- * @a: Number to b evaluated
- * @b: Number to b evaluated
- *
- * Return: Always 1 on success
+ * mul - function that prints the numbers, from 0 to 9, followed by a new line.
+ * @a: the int for the paramaters of my function
+ * @b: the int for the paramaters of my function
+ * Return: 0
  */
+
 int mul(int a, int b)
+
 {
-int answer;
-answer = a * b;
-return (answer);
-}	
+return (a * b);
+}
